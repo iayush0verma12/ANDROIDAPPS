@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightBackground"
+    android:background="@color/appColor"
     tools:context=".Dashboard"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:background="@color/cardview_light_background"
         android:id="@+id/nav_view"
-        app:itemTextColor="@color/statusColor"
+        app:itemTextColor="@color/appColor"
         app:itemIconTint="@color/statusColor"
         android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
         app:headerLayout="@layout/header"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/login_menu"
         app:navigationIcon="@drawable/ic_menu"
-        app:title="Covid-19 Vaccination"
+        app:title="COVID VACCINATION APP"
         app:titleTextColor="@color/white" />
 
     <TextView
@@ -133,7 +133,7 @@
                         android:layout_weight="1"
                         android:onClick="callNow"
                         android:paddingTop="15dp"
-                        android:text="@string/phone_text"
+                        android:text="Central Helpline Number"
                         android:textSize="18sp" />
 
 
@@ -171,7 +171,7 @@
             android:layout_height="wrap_content"
             app:autoPlay="false"
             app:showFullScreenButton="false"
-            app:videoId="pvMmiqT9b00" />
+            app:videoId="j6RNWYynAFA" />
 
     </LinearLayout>
 

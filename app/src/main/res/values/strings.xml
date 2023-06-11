@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Covid-19 Vaccination</string>
-    <string name="splash_text">Covid-19 Vaccination</string>
+    <string name="app_name">COVID VACCINATION APP</string>
+    <string name="splash_text">COVID VACCINATION APP</string>
     <string name="register_splash">Register today!</string>
-    <string name="dashboard">Dashboard</string>
+    <string name="dashboard">COVID</string>
 
     <!-- Dashboard Activity-->
-    <string name="vaccines">Available Vaccines</string>
+    <string name="vaccines">Book slots for Covid-19 Vaccines -</string>
     <string name="call">Contact us</string>
     <string name="phone_text">Vaccine Hotline Number</string>
     <string name="title">Novel Coronavirus (2019-nCoV)</string>
@@ -22,7 +22,7 @@
 
     <!-- Vaccine QUIZ Questions-->
     <string name="question_1">Are you 18 or Above\?</string>
-    <string name="question_2">Are you Healthy and Certain that you are NOT having any history of severe allergies\?</string>
+    <string name="question_2">Are you Healthy and Certain that you are NOT having any history of severe allergies Or any medical illness\?</string>
     <string name="question_3">Do you understand that this vaccine does NOT fully guarantee you of not getting a COVID-19 infection in the future\?</string>
     <string name="question_4">Do you understand that taking this vaccine may cause reactions and side effects as described in the vaccine information\?</string>
     <string name="question_5">Are you willing to take this vaccine and ready to complete the total dose intake as scheduled\?</string>
@@ -40,10 +40,10 @@
     <string name="tvPhoneConfirmText">Please Confirm Your Phone Number</string>
     <string name="etPhoneHint">Enter your phone number</string>
     <string name="tvPhoneText">Phone Number</string>
-    <string name="etIcPassportConfirmHint">Confirm IC / Passport No.</string>
-    <string name="tvIcPassportConfirmText">Please Confirm Your IC / Passport No</string>
-    <string name="etIcPassportHint">Enter IC / Passport No.</string>
-    <string name="tvIcPassportText">IC / Passport No</string>
+    <string name="etIcPassportConfirmHint">Adhaar number</string>
+    <string name="tvIcPassportConfirmText">Please Confirm Your Adhaar No </string>
+    <string name="etIcPassportHint">Enter Adhaar No.</string>
+    <string name="tvIcPassportText">Adhaar No</string>
     <string name="rbFemaleText">Female</string>
     <string name="rbMaleText">Male</string>
     <string name="tvGenderText">Gender</string>
@@ -55,7 +55,7 @@
     <string name="tvNameLabelText">Name:</string>
     <string name="tvAgeLabelText">Age:</string>
     <string name="tvGenderLabelText">Gender:</string>
-    <string name="tvIcPassportLabelText">IC / Passport No:</string>
+    <string name="tvIcPassportLabelText">Adhaar No:</string>
     <string name="tvPhoneLabelText">Phone Number:</string>
     <string name="tvStateLabelText">State:</string>
     <string name="tvAddressLabelText">Address:</string>
@@ -72,22 +72,40 @@
 
     <string-array name="states">
         <item>Select your state</item>
-        <item>Johor</item>
-        <item>Kedah</item>
-        <item>Kelantan</item>
-        <item>Kuala Lumpur</item>
-        <item>Labuan</item>
-        <item>Melaka</item>
-        <item>Negeri Sembilan</item>
-        <item>Pahang</item>
-        <item>Penang</item>
-        <item>Perak</item>
-        <item>Perlis</item>
-        <item>Putrajaya</item>
-        <item>Sabah</item>
-        <item>Sarawak</item>
-        <item>Selangor</item>
-        <item>Terangganu</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharastra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>TamilNadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>UttarPradesh</item>
+        <item>Uttrakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh </item>
+        <item>Lakshadweep </item>
+        <item>Delhi </item>
+        <item>Puducherry </item>
+
     </string-array>
 
     <string-array name="appointmentTimes">
@@ -97,66 +115,77 @@
         <item>16:00</item>
     </string-array>
 
-    <string name="centers">LIST OF VACCINES ADMINISTRATION CENTRES</string>
-    <string name="kl">Kuala Lumpur Convention Centre (KLCC)</string>
-    <string name="labuan">Dewan Serbaguna Perbadanan Labuan</string>
-    <string name="putrajaya">Dewan Sri Seroja</string>
-    <string name="selangor">Stadium Tertutup Kuala Selangor</string>
-    <string name="sarawak">Pusat Jantung Sarawak</string>
-    <string name="sabah">Dewan Serbaguna Libaran</string>
-    <string name="johor">Hospital Segamat</string>
-    <string name="melaka">Hospital Melaka</string>
-    <string name="negeri_sembilan">Klinik Kesihatan Seremban 2</string>
-    <string name="pahang">Bilik Gerakan JKK Simpang Pelangai</string>
-    <string name="terengganu">Hospital Hulu Terengganu</string>
-    <string name="kelantan">Hospital Tengku Anis</string>
-    <string name="perak">Dewan Bandaran Pengkalan Hulu</string>
-    <string name="kedah">Dewan Al Hana, Kedah</string>
-    <string name="penang">Hospital Kepala Batas</string>
-    <string name="perlis">Dewan Seri Melati, Perlis</string>
+    <string name="centers">LIST OF VACCINATION CENTRES</string>
+    <string name="vi">VACCINE INDIA</string>
+    <string name="aiims">AIIMS</string>
+    <string name="balakRam">Balak Ram Hospital</string>
+    <string name="nmdc">NDMC Charak Palika Hospital DH</string>
+    <string name="ssv">Shri shyam vaccine</string>
+    <string name="skmch">Shri Krishna Medical College</string>
+    <string name="iris">IRIS Hospital</string>
+    <string name="apollo">Apollo Hospitals</string>
+    <string name="bansal">Bansal Hospital</string>
+    <string name="max">MAX HOSPITAL</string>
+    <string name="vaccineworld">VaccineWorld</string>
+    <string name="spectra">Apollo Spectra</string>
+    <string name="amrita">Amrita Hospital</string>
+    <string name="nair">Nair Hospital</string>
+    <string name="inhs">Inhs Dhanvantri</string>
+    <string name="smhs">S.M.H.S. Hospital</string>
 
-    <string name="astrazeneca">
-        Astrazeneca\n
-                \nCOVID-19 Vaccine (AZD1222)  \n
-                \n• Vaccination protects people from becoming ill with COVID-19.\n
-                \n• AstraZeneca COVID-19 Vaccine demonstrated high efficacy in clinical trials conducted in the United Kingdom and the United States, and is very effective in real world rollouts in preventing severe illness, hospitalisation and death. \n
-                \n• AstraZeneca vaccine is approved by the National Pharmaceutical Regulatory Agency (NPRA) as a safe and effective vaccine against COVID-19 infection for adults 18 years and above. \n
-                \n• Common side effects include pain or tenderness at the injection site, tiredness, headache, muscle pain, and fever and chills (usually for 24 to 48 hours). \n
-                \n• An extremely rare possible side effect is thrombosis with thrombocytopenia syndrome (TTS), where 9.3 cases per million doses have been reported. \n
-                \n• No specific risk factors have been confirmed for TTS. Available data suggest more cases in adults under 60 years of age compared to older adults, and in women compared to men. \n
-                \nMonitor signs and symptoms between 4 to 30 days after vaccination. Please refer to the AstraZeneca Clinical Guidance for COVID-19 Vaccination (Malaysia). \n
-                \nThe benefits of vaccination greatly outweigh the risks in this situation. If you have any concerns or questions, you can discuss with your doctor before you receive the vaccine. \n
-                \nSeek medical attention immediately if you experience \n
-                1. A severe persistent headache that :
-                \n    • Does not improve with simple painkillers
-                \n    • Gets worse when lying down or accompanied nausea and vomiting.\n
-                2. Neurological symptoms such as : \n
-                    • Blurred vision \n
-                    • Difficulty with speech\n
-                    • Drowsiness \n
-                    • Seizures \n
-                3. Shortness of breath or chest pain \n
-                4. Swelling of the legs \n
-                5. Persistent abdominal pain \n
-                6. Tiny blood spots under the skin\n
-                \nInformation on the AstraZeneca vaccine \n
-                Monitor signs and symptoms between 4 to 30 days after vaccination. Please refer to the AstraZeneca Clinical Guidance for COVID-19 Vaccination (Malaysia). \n
-                The benefits of vaccination greatly outweigh the risks in this situation. If you have any concerns or questions, you can discuss with your doctor before you receive the vaccine. \n
-                \n1. Vaxzevria (previously COVID-19 Vaccine AstraZeneca) \n
-                \n2. The Oxford/AstraZeneca COVID-19 vaccine: what you need to know \n
-                \n3. Interim recommendations for use of the ChAdOx1-S [recombinant] vaccine against COVID-19 (AstraZeneca COVID-19 \n
-                vaccine AZD1222, SII Covishield, SK Bioscience) \n
-                \n4. Statement of the Strategic Advisory Group of Experts (SAGE) on Immunization: Continued review of emerging evidence on AstraZeneca COVID-19 Vaccines \n
-                \n5. Global Advisory Committee on Vaccine Safety (GACVS) review of latest evidence of rare adverse blood coagulation events with AstraZeneca COVID-19 Vaccine (Vaxzevria and Covishield) \n
-                \n6. AstraZeneca COVID-19 vaccine: review of very rare cases of unusual blood clots continues \n
-                \nRead More \@
-                \nvaksincovid.gov.my/en \n
+    <string name="covidshield">
+        COVID SHIELD\n
+                \nMINISTRY OF HEALTH INDIA
+                \n01 WHAT IS COVID-19\?\n
+                \nCOVID-19 disease is caused by a coronavirus called SARS-CoV-2. Symptoms may appear 2 to 14 days after exposure to the virus. Symptoms that may be experienced are:\n
+                • Fever or chills\n
+                • Cough\n
+                • Difficulty breathing\n
+                • Fatigue\n
+                • Muscle or body pain\n
+                • Headache\n
+                • Loss of sense of taste or smell\n
+                • Sore throat\n
+                • Congestion or runny nose\n
+                • Nausea or vomiting\n
+                • Diarrhea\n
+                \n
+                02 WHO IS AT HIGH RISK FOR GETTING COVID-19 INFECTION\?
+                \nThe risk groups are:\n
+                • Children\n
+                • Senior citizens aged 60 and above\n
+                • Patients with chronic diseases\n
+                • Patients with low immunity\n
+                • Pregnant women\n
+                \nCovidshield is one of the Covid-19 vaccines that has been approved for emergency\n
+        \nuse in India and several other countries. It is manufactured by the Serum Institute of India (SII),\n
+        \nwhich is the world\'s largest vaccine producer by volume. Covidshield is based on the viral vector\n
+        \ntechnology developed by Oxford University and AstraZeneca, a British-Swedish pharmaceutical company.\n
+        \nCovidshield works by introducing a modified version of a common cold virus (adenovirus) that contains \n
+        \nthe genetic material of the spike protein of the novel coronavirus. The spike protein is what the coronavirus\n
+        \nuses to attach to human cells and infect them. When the vaccine is injected into a person, it triggers an immune\n
+        \nresponse that produces antibodies against the spike protein. These antibodies can then prevent the coronavirus from\n
+        \nentering the cells and causing Covid-19.\n
+
+\nCovidshield has been shown to be safe and effective in preventing symptomatic and severe Covid-19 across diverse populations, \n
+        \nincluding older adults. According to a large phase 3 clinical trial published in the New England Journal of Medicine in December\n
+        \n2021, Covidshield had an efficacy of 70.4% against symptomatic Covid-19 and 100% against severe Covid-19 and hospitalization.\n
+        \nThe vaccine also demonstrated high effectiveness against various variants of the coronavirus, such as the alpha and delta variants,\n
+        \nwhich are more contagious and virulent than the original strain.\n
+
+\nCovidshield requires two doses given at an interval of 4 to 12 weeks for optimal protection. The vaccine can be stored at 2 to 8 degrees \n
+        \nCelsius, which makes it suitable for distribution in low-resource settings. The vaccine is also affordable, costing around $3 per \n
+        \ndose for low- and middle-income countries.\n
+
+\nCovidshield is a vital tool in the global fight against the Covid-19 pandemic, which has claimed over 5 million lives and infected over\n
+        \n250 million people worldwide. By getting vaccinated with Covidshield or any other authorized vaccine, people can protect themselves and\n
+        \nothers from this deadly disease and help end the health crisis.
 
     </string>
 
-    <string name="sinovac">
-        Sinovac-Coronavac\n
-                \nMINISTRY OF HEALTH MALAYSIA
+    <string name="covaxin">
+        COVAXIN\n
+                \nMINISTRY OF HEALTH INDIA
                 \n01 WHAT IS COVID-19\?\n
                 \nCOVID-19 disease is caused by a coronavirus called SARS-CoV-2. Symptoms may appear 2 to 14 days after exposure to the virus. Symptoms that may be experienced are:\n
                 • Fever or chills\n
@@ -180,42 +209,21 @@
                 • Pregnant women\n
                 \n03 WHAT IS THE IMPORTANCE OF TAKING COVID 19 VACCINE\?
                 \nThe COVID-19 vaccine is given to control the transmission of COVID-19 disease. As more people get vaccinated, more and more people form antibodies and in turn reduce the likelihood of more severe COVID-19 disease. Indirectly it can protect at -risk groups who are not eligible for vaccination.\n
-                \n04 WHAT IS THE LAW ON TAKING COVID-19 VACCINE\?
-                \nThe Special Meeting of the Muzakarah Committee of the National Council for Islamic Religious Affairs which convened on 3 December 2020 decided that the law on the use of COVID-19 vaccine is a MUST AND MUST BE TAKEN by groups designated by the government.\n
-                \n05 WHO IS ELIGIBLE TO RECEIVE COVID-19 CORONAVAC VACCINE\?
-                \nAll Malaysians aged 18 years and above are eligible to receive the COVID-19 vaccine CoronaVac.\n
-                \n06 WHO IS NOT ELIGIBLE TO RECEIVE COVID-19 CORONAVAC VACCINE\?
-                \nYou are not eligible to receive the COVID-19 CoronaVac vaccine if you:\n
-                • Have an allergy to CoronaVac or any of the ingredients in CoronaVac (please see the Product Description section). Signs of an allergic reaction may include a rash or itchy skin, shortness of breath and swelling of the face or tongue. Call your doctor or go to the emergency unit at the nearest hospital immediately if you experience an allergic reaction.\n
-                • Have a history of allergies to any other vaccines\n
-                • Have a serious neurological disease such as spinal cord inflammation (transverse\n
-                myelitis), demyelinating diseases and Guillain-Barre syndrome\n
-                • Have a severe and or chronic illness that is out of control\n
-                • If you are pregnant or breastfeeding\n
-                \nVaccination to individuals who are suffering from acute diseases such as acute diseases, acute exacerbation of chronic diseases, severe chronic diseases, allergies and fever should be delayed if necessary.\n
-                \n07 ARE CHILDREN, ADOLESCENTS AND ELDERLY ELIGIBLE TO RECEIVE THE CORONAVAC VACCINE\?
-                \nCoronaVac is not recommended for children 18 years of age and younger due to limited safety and efficacy data at this time.\n
-                \nSeniors 60 years of age and older are eligible for the CoronaVac vaccine.\n
-                \n08 CAN I GET THE COVID-19 VACCINE IF I AM PREGNANT OR BREASTFEEDING\?
-                \nData on the use of CoronaVac by pregnant or breastfeeding women are limited. The use of this vaccine by pregnant women and breastfeeding mothers is NOT RECOMMENDED at this time.\n
-                \n09 AM I GIVEN THE CHOICE TO CHOOSE THE COVID-19 VACCINE TYPE\?
-                \nNO. Vaccine recipients are not allowed to choose the type of COVID-19 vaccine they will receive. It depends on the existing stock supply at the vaccination center as well as the individual\'s assessment of the types of vaccines available.\n
-                However, vaccine recipients who cannot receive a particular vaccine due to a medical problem such as an allergy can be given another more appropriate vaccine.\n
-                \n10 IS COVID-19 CORONAVAC VACCINE SAFE TO USE IN MALAYSIA\?
-                \nThe Drug Control Authority of Malaysia has allowed conditional registration of vaccine use in Malaysia.
-                \nEmergency Use Permits (EUA) have also been approved by several other regulatory agencies such as in Mexico, Brazil, Chile, Paraguay, China, Hong Kong, Turkey, Cambodia and Indonesia.\n
-                \n11 WHAT SHOULD I INFORM THE HEALTH OFFICER BEFORE RECEIVING COVID-19 CORONAVAC VACCINE INJECTION\?
-                \nInform the health care provider if you:\n
-                • Have a history of severe allergies\n
-                • Currently receiving treatment that lowers the body\'s immune system\n
-                • Have severe neurological diseases such as Tranverse Myelitis, Guillian-Barre Syndrome,\n
-                Demyelinating Disease\n
-                • Have a chronic illness\n
-                \nRead More \@
-                \nvaksincovid.gov.my/en \n
+                \nCovaxin is a COVID-19 vaccine developed by Bharat Biotech in India. \n
+        It is based on an inactivated form of the coronavirus that cannot\n
+        cause disease but can trigger an immune response.
+        \n Covaxin has been approved for emergency use in India and several Other countries\n
+        \nAccording to the results of a phase 3 clinical trial with 25,798 participants in India,\n
+        \nCovaxin has an overall efficacy of 77.8% against symptomatic COVID-19. This means that it\n
+        \nreduces the risk of developing symptoms\n
+        \nby 77.8% compared to a placebo. The vaccine also has an efficacy of 93.4% against severe COVID-19,\n
+        \nmeaning that it reduces the risk\n of hospitalization or death by 93.4%. Moreover, Covaxin has an efficacy\n
+        \nof 65.2% against the Delta variant, which is the dominant strain\n
+        \nin India and many other countries.\n
+
     </string>
 
-    <string name="pfizer">
+    <string name="sputnikv">
         Pfizer-BioNTech\n
                 \nCOVID-19 COMIRNATY VACCINE INFORMATION (PFIZER-BIONTECH COMPANY) FOR VACCINE RECIPIENTS\n
                 \nWHAT IS COVID-19 \?
@@ -240,62 +248,54 @@
                 • Pregnant women\n
                 \nWHAT IS THE IMPORTANCE OF TAKING COVID 19 VACCINE\?
                 \nThe COVID-19 vaccine is given to control the transmission of COVID-19 disease. As more people get vaccinated, more and more people form antibodies and in turn reduce the likelihood of more severe COVID-19 disease. Indirectly it can protect at -risk groups who are not eligible for vaccination.\n
-                \nWHAT KIND OF VACCINE WILL BE USED IN MALAYSIA\?
-                \nThere are several types that will be used in Malaysia, namely:\n
-                • Pfizer-BioNtech Covid-19 mRNA vaccine\n
-                • Covid-19 viral vector vaccine produced by Astra Zeneka\n
-                • Sinovac\'s inactivated Covid-19 vaccine\n
-                • Covid-19 recombinant viral vector vaccine produced by CanSino\n
-                • Gamaleya\'s Covid-19 viral vector vaccine\n
-                \nWHO IS ELIGIBLE TO RECEIVE COVID-19 COMIRNATY (PFIZER-BIONTECH) VACCINE\?
-                \nAll Malaysians aged 18 years and above are eligible to receive the COVID-19 COMIRNATY (Pfizer-BioNTech) vaccine. Priority is given to frontline workers, those at high risk of getting COVID-19 infection such as the elderly, patients with medical problems such as heart patients, diabetes, high blood pressure, asthma, cancer and so on.
-                \n\nWHO IS NOT ELIGIBLE TO RECEIVE COVID-19 COMIRNATY (PFIZER-BIONTECH) VACCINE\?\n
-                \nYou are not eligible to receive the COVID-19 COMIRNATY (Pfizer-BioNTech) vaccine if you have:
-                \n• History of severe allergic reactions or history of anaphylaxis after receiving first dose of mRNA vaccine such as COVID-19 COMIRNATY vaccine (Pfizer-BioNTech) \n
-                \nNote: An allergic reaction is considered severe if the individual needs to be treated in a hospital \n
-                \n• Allergic reactions to any content of COVID-19 mRNA vaccine even if not severe (allergic reactions that occur within 4 hours after receiving COVID-19 mRNA vaccine injection). Individuals who experience this reaction after receiving the first dose of COVID-19 mRNA vaccine, will not be given a second dose\n
-                \n• History of severe allergic reactions or history of anaphylaxis after taking any medication or food or to an unknown substance\n
-                \nWHAT ARE THE LAWS OF TAKING COVID-19 VACCINE\?
-                \nThe Special Meeting of the Muzakarah Committee of the National Council for Islamic Religious Affairs which convened on 3 December 2020 decided that the law on the use of COVID-19 vaccine should and must be taken by groups designated by the Government.\n
-                \nAM I GIVEN THE CHOICE TO CHOOSE THE COVID-19 VACCINE TYPE\?
-                \nNo. Vaccine recipients are not allowed to choose the type of COVID-19 vaccine they will receive. It depends on the existing stock supply at the vaccination center. \n
-                \nIS COVID-19 COMIRNATY (PFIZER-BIONTECH) VACCINE SAFE TO USE IN MALAYSIA\?
-                \nYes, this vaccine is safe to use because it has been registered and was approved by the National Pharmaceutical Regulatory Division (NPRA) on 8 January 2021 for its use in Malaysia. The Food and Drug Administration (FDA) has authorized the use of the COVID-19 COMIRNATY Vaccine (Pfizer-BioNTech) as an emergency measure to prevent COVID-19 in individuals 16 years of age and older under the Emergency Use Permission (EUA).\n
-                \nThe World Health Organization (WHO) has certified that the COVID-19 COMIRNATY (Pfizer-BioNTech) vaccine can be used for emergency purposes on 31 December 2020.
-                \nIt has also been approved by health authorities in the USA, UK, European countries, Israel and Singapore. In fact, 48 countries have certified the use of this vaccine.\n
-                \nWHAT SHOULD I INFORM THE HEALTH OFFICER BEFORE RECEIVING COVID-19 COMIRNATY (PFIZER-BIONTECH) VACCINE INJECTION\?
-                \nInform the health care provider if you:\n
-                • Have a history of severe allergies; \n
-                • Have bleeding disorders such as Haemophilia, Idiopathic, Thrombocytopenic Purpura (ITP) and so on;\n
-                • Are undergoing treatment for blood thinners;\n
-                • Are receiving treatment that lowers the body immune system;\n
-                • Are pregnant or planning to become pregnant;\n
-                • Breastfeeding;\n
-                • Have received COVID-19 vaccine from another brand
-                \nYou are advised to consult a specialist doctor first to determine the suitability for me
-                \n
-                \nRead More \@
-                \nvaksincovid.gov.my/en \n
+
+\nThe Sputnik V COVID-19 vaccine is one of the vaccines that have been approved for emergency use in several countries around the world. It was developed by the Gamaleya Research Institute of Epidemiology and Microbiology in Russia, and it is based on a viral vector platform.\n
+
+\nThe vaccine uses two different adenoviruses, which are common viruses that cause colds and other mild infections, as vectors to deliver the genetic material of the coronavirus spike protein into human cells. The spike protein is what the coronavirus uses to attach to and infect cells, and by exposing the immune system to it, the vaccine aims to trigger a protective response.\n
+
+\nThe vaccine requires two doses, administered 21 days apart, and it can be stored at 2-8°C, which makes it easier to distribute than some other vaccines that require ultra-cold storage. According to the interim results of a phase 3 trial published in The Lancet, the vaccine has an efficacy of 91.6% against symptomatic COVID-19, and it also appears to be safe and well-tolerated.\n
+
+\n However, some experts have raised questions about the quality and transparency of the data, as well as the speed and rigor of the regulatory approval process in Russia and other countries. The vaccine has also been subject to political controversies and misinformation campaigns, which may affect public trust and acceptance.\n
+
+\nThe World Health Organization (WHO) and the European Medicines Agency (EMA) are currently reviewing the vaccine for possible authorization. If approved, the vaccine could play an important role in increasing global vaccine supply and equity, as well as helping to end the pandemic.\n
     </string>
 
     <string-array name="filterStates">
-        <item>All States</item>
-        <item>Johor</item>
-        <item>Kedah</item>
-        <item>Kelantan</item>
-        <item>Kuala Lumpur</item>
-        <item>Labuan</item>
-        <item>Melaka</item>
-        <item>Negeri Sembilan</item>
-        <item>Pahang</item>
-        <item>Penang</item>
-        <item>Perak</item>
-        <item>Perlis</item>
-        <item>Putrajaya</item>
-        <item>Sabah</item>
-        <item>Sarawak</item>
-        <item>Selangor</item>
-        <item>Terangganu</item>
+        <item>Select your state</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharastra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>TamilNadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>UttarPradesh</item>
+        <item>Uttrakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh </item>
+        <item>Lakshadweep </item>
+        <item>Delhi </item>
+        <item>Puducherry </item>
+
     </string-array>
 
     <string name="login_icon">Login</string>
@@ -320,13 +320,13 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="emailUsed">Unsuccessful Registration, this email is already used.</string>
-    <string name="icUsed">Unsuccessful Registration, this IC/Passport is already used.</string>
+    <string name="icUsed">Unsuccessful Registration, Adhaar number is already used.</string>
     <string name="log_out_label">Log out</string>
     <string name="txtMovingText">STAY HOME, STAY SAFE, CORONAVIRUS IS REAL, PROTECT YOURSELF AND YOUR FAMILY. REMEMBER YOUR APPOINTMENT DATE AND ENCOURAGE YOUR FRIENDS AND FAMILY TO TAKE THE VACCINE...DO NOT HESITATE TO CONTACT THE NEAREST HOSPITAL IF YOU NOTICE ANY CORONAVIRUS SYMPTOMS </string>
     <string name="searchLabelTitle">Search</string>
 
-    <string name="faqQuestion1">What Does Lindung Diri, Lindung Semua Mean\?</string>
-    <string name="faqAnswer1">Lindung Diri, Lindung Semua is the main theme of the National COVID-19 Immunisation Programme which emphasises that protection for all Malaysians will only be achieved if we can vaccinate as many eligible individuals. When each individual takes the vaccine, they will be able to protect the people around them from any infections that may be carried by them. Imagine, if the majority of Malaysians take the vaccine injection, we could build a protective network that could also protect groups who are not eligible for immunisation such as children and pregnant women. Protecting your loved ones starts with you through the vaccination. When at least 70 percent of the population has been vaccinated, we will be well protected as a whole. As mentioned, none of us are safe until all of us are safe. Protection for all starts from ourselves. So, get vaccinated. Lindung Diri, Lindung Semua.</string>
+    <string name="faqQuestion1">What is corona virus \?</string>
+    <string name="faqAnswer1">Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In humans and birds, they cause respiratory tract infections that can range from mild to lethal. The most recent coronavirus disease is COVID-19. It is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention.</string>
 
     <string name="faqQuestion2">How do I make an appointment\?</string>
     <string name="faqAnswer2">Your appointment will be made once you have completed the questionnaire by visiting the Dashboard and click on any vaccine you want to register. Your answers  to the quiz will determine whether you will be able to proceed with the vaccine registration and an appointment will be scheduled after successful registration. You can then Login to check if any changes occur.

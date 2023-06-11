@@ -35,22 +35,22 @@ public class VaccineLocation extends AppCompatActivity {
 
         listLoc = new ArrayList<>();
 
-        ListLocation loc1 = new ListLocation(getString(R.string.kl));
-        ListLocation loc2 = new ListLocation(getString(R.string.labuan));
-        ListLocation loc3 = new ListLocation(getString(R.string.putrajaya));
-        ListLocation loc4 = new ListLocation(getString(R.string.selangor));
-        ListLocation loc5 = new ListLocation(getString(R.string.sarawak));
-        ListLocation loc6 = new ListLocation(getString(R.string.sabah));
-        ListLocation loc7 = new ListLocation(getString(R.string.johor));
-        ListLocation loc8 = new ListLocation(getString(R.string.melaka));
-        ListLocation loc9 = new ListLocation(getString(R.string.negeri_sembilan));
-        ListLocation loc10 = new ListLocation(getString(R.string.pahang));
-        ListLocation loc11 = new ListLocation(getString(R.string.terengganu));
-        ListLocation loc12 = new ListLocation(getString(R.string.kelantan));
-        ListLocation loc13 = new ListLocation(getString(R.string.perak));
-        ListLocation loc14 = new ListLocation(getString(R.string.kedah));
-        ListLocation loc15 = new ListLocation(getString(R.string.penang));
-        ListLocation loc16 = new ListLocation(getString(R.string.perlis));
+        ListLocation loc1 = new ListLocation(getString(R.string.vi));
+        ListLocation loc2 = new ListLocation(getString(R.string.aiims));
+        ListLocation loc3 = new ListLocation(getString(R.string.balakRam));
+        ListLocation loc4 = new ListLocation(getString(R.string.nmdc));
+        ListLocation loc5 = new ListLocation(getString(R.string.ssv));
+        ListLocation loc6 = new ListLocation(getString(R.string.skmch));
+        ListLocation loc7 = new ListLocation(getString(R.string.iris));
+        ListLocation loc8 = new ListLocation(getString(R.string.apollo));
+        ListLocation loc9 = new ListLocation(getString(R.string.bansal));
+        ListLocation loc10 = new ListLocation(getString(R.string.max));
+        ListLocation loc11 = new ListLocation(getString(R.string.vaccineworld));
+        ListLocation loc12 = new ListLocation(getString(R.string.spectra));
+        ListLocation loc13 = new ListLocation(getString(R.string.amrita));
+        ListLocation loc14 = new ListLocation(getString(R.string.nair));
+        ListLocation loc15 = new ListLocation(getString(R.string.inhs));
+        ListLocation loc16 = new ListLocation(getString(R.string.smhs));
 
         //Insert into List
         listLoc.add(loc1);

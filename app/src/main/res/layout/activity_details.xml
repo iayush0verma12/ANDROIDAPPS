@@ -64,12 +64,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="350dp"
         android:layout_marginTop="-75dp"
-        android:backgroundTint="@color/orange"
+        android:backgroundTint="@color/appColor"
         android:clickable="true"
         android:onClick="showQuiz"
-        app:backgroundTint="#ECB205"
+        app:backgroundTint="@color/appColor"
         app:srcCompat="@drawable/ic_proceed"
-        app:tint="@color/black" />
+        app:tint="@color/black"
+        android:outlineAmbientShadowColor="@color/black"/>
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -80,6 +81,7 @@
         android:layout_marginTop="-120dp"
         android:onClick="shareInfo"
         android:clickable="true"
+        android:outlineSpotShadowColor="@color/black"
         app:srcCompat="@drawable/ic_share" />
 
 </LinearLayout>

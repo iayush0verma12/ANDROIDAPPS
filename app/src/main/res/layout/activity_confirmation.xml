@@ -19,7 +19,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/roboto_mono_bold"
             android:text="@string/heading2Text"
-            android:textColor="@color/statusColor"
+            android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_mono_bold"
-                    android:text="@string/tvVaccineNameLabelText"
+                    android:text="Vaccine choosen"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -145,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:fontFamily="@font/roboto_mono_bold"
-                    android:text="@string/tvIcPassportLabelText"
+                    android:text="Aadhar number"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 
@@ -325,14 +325,14 @@
             android:id="@+id/btnCheckVaccineCenter2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/vaccine_centersBtnLabel"
+            android:text="Vaccination centers"
             app:cornerRadius="5dp"
-            android:backgroundTint="@color/lightAppColor"
+            android:backgroundTint="@color/appColor"
             android:padding="8dp"
             android:onClick="goToLocation"
             android:layout_marginTop="16dp"
-            android:textColor="@color/statusColor"
-            app:strokeColor="@color/appColor"
+            android:textColor="@color/lightAppColor"
+            app:strokeColor="#d0fced"
             android:textAllCaps="false"
             app:strokeWidth="1dp"
             app:layout_constraintEnd_toEndOf="parent"

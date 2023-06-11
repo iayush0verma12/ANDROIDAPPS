@@ -30,7 +30,7 @@ public class Dashboard extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<ListItem> listItem;
-    int images[] = {R.drawable.astrazaneca, R.drawable.sinovac, R.drawable.pfizer};
+    int images[] = {R.drawable.covidshield, R.drawable.covaxin, R.drawable.sputnik};
 
 
     private DrawerLayout mDrawerLayout;
@@ -106,9 +106,9 @@ public class Dashboard extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         listItem = new ArrayList<>();
-        ListItem item1 = new ListItem("AstraZeneca", getString(R.string.astrazeneca));
-        ListItem item2 = new ListItem("Sinovac-Coronavac", getString(R.string.sinovac));
-        ListItem item3 = new ListItem("Pfizer-BioNTech", getString(R.string.pfizer));
+        ListItem item1 = new ListItem("CovidShield", getString(R.string.covidshield));
+        ListItem item2 = new ListItem("Covaxin", getString(R.string.covaxin));
+        ListItem item3 = new ListItem("Sputnik V", getString(R.string.sputnikv));
 
         //Insert into List
         listItem.add(item1);
@@ -141,7 +141,7 @@ public class Dashboard extends AppCompatActivity {
 
     public void callNow(View view) {
         Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:+601111693190"));
+        intent.setData(Uri.parse("tel:011-22307145"));
         startActivity(intent);
     }
 }

@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Adding the default admin values to the database
-        mEmail = "bannarr2021@gmail.com";
+        mEmail = "ayushv341@gmail.com";
         mPassword = "1234567890";
         mDatabase = new DatabaseManager(this);
         if (!mDatabase.checkLogin(mEmail, mPassword)) {
-            mDatabase.addUser(" ", "bannarr2021@gmail.com", "1234567890", "Adedigba Joshua",
-                    0, "Male", "C0523189", "01111693190", "Mobile", "Negeri Sembilan", "INTI International University, Nilai, 71800", "00-00-0000", "00:00", 1);
+            mDatabase.addUser(" ", "ayushv341@gmail.com", "1234567890", "Ayush Verma",
+                    0, "Male", "C0523189", "9661737171", "Mobile", "Bihar", "Boring Road patna", "00-00-0000", "00:00", 1);
         }
 
         //Changing statusBarColor and Hiding NavBar at Startup for FullScreen Mode

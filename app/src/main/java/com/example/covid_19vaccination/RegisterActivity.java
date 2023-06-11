@@ -217,7 +217,7 @@ public class RegisterActivity extends AppCompatActivity implements
         mIcPassport = mEditText.getText().toString().trim();
 
         if (mIcPassport.isEmpty()) {
-            mEditText.setError("Please enter your IC / Passport No.");
+            mEditText.setError("Please enter your Adhaar No.");
             return false;
         } else {
             mEditText.setError(null);
@@ -231,10 +231,10 @@ public class RegisterActivity extends AppCompatActivity implements
         mIcPassportC = mEditText.getText().toString().trim();
 
         if (mIcPassportC.isEmpty()) {
-            mEditText.setError("Please confirm your IC / Passport No.");
+            mEditText.setError("Please confirm your Adhaar No.");
             return false;
         } else if (!mIcPassportC.toLowerCase().equals(mIcPassport.toLowerCase())) { //.toLowerCase() to make the comparison not case-sensitive
-            mEditText.setError("Your IC / Passport No. must match");
+            mEditText.setError("Enter your Adhaar No.");
             return false;
         } else {
             mEditText.setError(null);

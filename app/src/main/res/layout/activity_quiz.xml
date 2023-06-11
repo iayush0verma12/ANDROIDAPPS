@@ -52,7 +52,7 @@
             android:layout_weight="1"
             android:text="@string/yes_button"
             android:textSize="20sp"
-            app:backgroundTint="#05980B" />
+            app:backgroundTint="#3CEC43" />
 
         <Button
             android:id="@+id/no_button"
@@ -63,7 +63,7 @@
             android:layout_weight="1"
             android:text="@string/no_button"
             android:textSize="20sp"
-            app:backgroundTint="#B60303" />
+            app:backgroundTint="#F80C0C" />
     </LinearLayout>
 
     <ProgressBar
